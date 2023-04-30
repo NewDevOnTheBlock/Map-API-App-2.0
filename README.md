@@ -1,40 +1,49 @@
-# Map-API-App
+# Vue-Map-App
 
-This template should help get you started developing with Vue 3 in Vite.
+## Table of contents
 
-## Recommended IDE Setup
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Overview
 
-## Type Support for `.vue` Imports in TS
+This started as a collabrative map app with a few friends, you can see this in the Repo link in the description. I ended up coding my entire application from scratch individually and then pushed to a developmental branch with my name and then created an individual Repo here for others to see my code. I wanted to learn how to use Vue instead of React to add to my resume and skillset as well as use a Map api such as Google but instead used Leaflet. The goal was to make an interactive map, a location search, and a marker on a chosen location. 
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+### The challenge
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Users should be able to:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- View an interactive map
+- Search a Location
+- Click on Location Search and a Marker should show up on Location in Map
+- Should have a Mobile View
 
-## Customize configuration
+### Links
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Live Site URL: [LIVE WEB PAGE](https://nvious7-vue-map-app.netlify.app/)
 
-## Project Setup
+## My process
 
-```sh
-npm install
-```
+### Built with
 
-### Compile and Hot-Reload for Development
+- Vue 3
+- Leaflet
+- Vuetify
+- Semantic HTML5 markup
+- CSS custom properties
+- SASS
+- Desktop-first workflow
 
-```sh
-npm run dev
-```
+### What I learned
 
-### Type-Check, Compile and Minify for Production
+I learned how to use Vue.js instead of React.js as well as Leaflet maps similar to Google's. I also learned how to use Vuetify instead of Material UI due to building this application on Vue and not React.
 
-```sh
-npm run build
-```
+### Continued development
+
+In the future, I would love to have Geolocation, I do have a snippet of commented code using Geolocation, however I have not implemented a marker system on the Geolocation. I would also like to use Google Maps in another application to try it as well as involve Autocorrect. 
+
