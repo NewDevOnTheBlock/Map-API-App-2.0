@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [LIVE WEB PAGE](https://nvious7-vue-map-app.netlify.app/)
+- Live Site URL: [LIVE WEB PAGE](https://mapapiapp2.netlify.app/)
 
 ## My process
 
