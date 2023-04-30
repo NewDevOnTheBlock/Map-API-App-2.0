@@ -1,6 +1,5 @@
 <template>
-<<<<<<< HEAD
-  <div class="search-input" style="maargin: 15px 15px 0px 15px">
+  <div class="search-input" style="margin: 15px 15px 0px 15px">
     <v-text-field
       v-model:String="text"
       ref="input"
@@ -23,7 +22,7 @@
         style="border-bottom: 1px solid grey; transition: 0.3s"
         @click="setPosition(item)"
       >
-        <template>
+        <template v-slot:prepend>
           <img
             src="../../node_modules/leaflet/dist/images/marker-icon.png"
             style="width: 50%"
@@ -42,7 +41,7 @@ const NOMINATIM_BASE_URL: string =
 let params: object = {
   q: "",
   format: "json",
-  adressdetails: "addressdetails",
+  addressdetails: "addressdetails",
 };
 
 export default {
@@ -101,17 +100,3 @@ export default {
   }
 }
 </style>
-=======
-  <p>Search Box</p>
-</template>
-
-<script lang="ts">
-  export default {
-    name: "Search",
-  }
-</script>
-
-<style lang="scss" scoped>
-
-</style>
->>>>>>> 25925512a4670f8e971cb2a841eff4b4b2707003
