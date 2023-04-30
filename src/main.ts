@@ -1,8 +1,15 @@
-import { createApp } from 'vue';
-import App from './App.vue';
+import { createApp } from 'vue'
+import App from './App.vue'
 
-<<<<<<< HEAD
-createApp(App).mount('#app');
-=======
-createApp(App).mount('#app')
->>>>>>> 25925512a4670f8e971cb2a841eff4b4b2707003
+// Vuetify
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+
+const vuetify = createVuetify({
+  components,
+  directives,
+})
+
+createApp(App).use(vuetify).mount('#app')
